@@ -8,6 +8,7 @@ Producer: Exposes a REST endpoint that triggers a KafkaTemplate to send JSON pay
 
 Consumer: Uses @KafkaListener to asynchronously process incoming records.
 
+
 🛠 Prerequisites
 Java 21 or higher
 
