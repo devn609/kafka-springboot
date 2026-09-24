@@ -1,4 +1,4 @@
-Kafka Spring Boot Producer & Consumer
+# Kafka Spring Boot Producer & Consumer
 This is a high-performance messaging microservice built with Spring Boot 4.0.2 and Spring Kafka 4.0.2, utilizing Kafka Clients 4.1.1. It demonstrates a full-duplex communication flow: producing JSON messages to a topic and consuming them using a listener.
 
 🏗 Architecture
