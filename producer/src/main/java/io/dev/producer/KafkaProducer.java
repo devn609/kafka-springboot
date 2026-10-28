@@ -40,9 +40,9 @@ public class KafkaProducer {
     @PostMapping("/senduser")
     public String send_userobject(@RequestBody User user) {
         String topic = "my-topic-new";
-        System.out.println( "HERE :" + topic);
-        System.out.println( user);
-        userTemplate.send(topic,  user);
+        System.out.println( "Topic :" + topic);
+        System.out.println(user);
+        userTemplate.send(topic, user);
         return "(User) Message Sent:" + user.toString();
     }
 
